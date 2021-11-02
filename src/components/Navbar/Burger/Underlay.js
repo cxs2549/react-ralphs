@@ -13,6 +13,6 @@ const StyledUnderlay = styled.div`
         transition: opacity 0.3s ease-in-out;
 `
 const Underlay = ({open}) => {
-	return <StyledUnderlay open={open} />
+	return <StyledUnderlay className="xl:hidden" open={open} />
 }
 export default Underlay
